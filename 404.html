@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidan hittades inte – VIP Hair</title>
+  <meta name="description" content="Den här sidan finns inte. Gå tillbaka till VIP Hair Göteborg.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+    :root {
+      --clr-white:    #FFFFFF;
+      --clr-cream:    #F0F0F0;
+      --clr-black:    #181818;
+      --clr-anthracite: #303030;
+      --clr-accent:   #B08D57;
+      --clr-accent-dark: #8A6B3A;
+      --ff-heading: Georgia, "Iowan Old Style", "Times New Roman", serif;
+      --ff-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 16px; }
+    body {
+      font-family: var(--ff-body);
+      background: var(--clr-white);
+      color: var(--clr-black);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: var(--clr-white);
+      border-bottom: 1px solid rgba(176,141,87,0.15);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+    }
+    .logo-img { max-height: 44px; width: auto; }
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+    .error-wrap {
+      max-width: 540px;
+    }
+    .error-number {
+      font-family: var(--ff-heading);
+      font-size: clamp(5rem, 18vw, 10rem);
+      font-weight: 700;
+      color: var(--clr-accent);
+      line-height: 1;
+      letter-spacing: -0.05em;
+      opacity: 0.18;
+      user-select: none;
+      margin-bottom: -2rem;
+    }
+    h1 {
+      font-family: var(--ff-heading);
+      font-size: clamp(1.75rem, 5vw, 2.75rem);
+      color: var(--clr-black);
+      margin-bottom: 1rem;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+    }
+    p {
+      font-size: 1rem;
+      color: var(--clr-anthracite);
+      line-height: 1.7;
+      margin-bottom: 2.5rem;
+      max-width: 42ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4em;
+      font-family: var(--ff-body);
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 0.85em 2.25em;
+      border-radius: 999px;
+      background: var(--clr-accent);
+      color: var(--clr-white);
+      text-decoration: none;
+      border: 2px solid var(--clr-accent);
+      transition: background 180ms ease-out, transform 180ms ease-out, box-shadow 180ms ease-out;
+    }
+    .btn:hover {
+      background: var(--clr-accent-dark);
+      border-color: var(--clr-accent-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(176,141,87,0.25);
+    }
+    footer {
+      background: var(--clr-black);
+      color: rgba(240,240,240,0.45);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.8rem;
+    }
+    footer a { color: var(--clr-accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img src="logo.jpg" alt="VIP Hair logotyp" class="logo-img">
+    </a>
+  </header>
+
+  <main>
+    <div class="error-wrap">
+      <div class="error-number" aria-hidden="true">404</div>
+      <h1>Den här sidan finns inte</h1>
+      <p>Kanske var det ett gammalt bokmärke eller en feltypning. Inga problem — gå tillbaka till startsidan så hjälper vi dig vidare.</p>
+      <a href="index.html" class="btn">← Tillbaka till startsidan</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>VIP Hair · Södra Hamngatan 2, Göteborg · <a href="tel:031810811">031-81 08 11</a></p>
+  </footer>
+</body>
+</html>
